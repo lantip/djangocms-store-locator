@@ -1,5 +1,5 @@
 from django.contrib import admin
-from django.conf.urls.defaults import patterns, url
+from django.conf.urls import patterns, url
 from models import Location, LocationType
 from djangocms_store_locator.views import get_lat_long, get_locations
 from django.utils.translation import ugettext_lazy as _
